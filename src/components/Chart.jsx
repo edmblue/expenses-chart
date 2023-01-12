@@ -32,9 +32,6 @@ const Chart = ({ Data }) => {
     });
   };
 
-  useEffect(() => {
-    console.log(backgroundSet());
-  });
 
   const [options, setOptions] = useState({
     plugins: {
